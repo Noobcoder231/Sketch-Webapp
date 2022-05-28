@@ -1,0 +1,44 @@
+body
+{
+    background-image:url("https://i.pinimg.com/originals/1c/d5/b6/1cd5b69486df56a01b8d062f201b9996.jpg") ;
+}
+
+h1
+{
+    color: aliceblue;
+    background-color: darkslategray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas
+{
+    border: 5px solid dimgray;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
+}
+
+#ClearCanvas
+{
+    font-family: 'Courier New', Courier, monospace;
+}
